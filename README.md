@@ -1,6 +1,3 @@
-# Wizard101-Farming-BOT
-This bot is designed to automate gameplay in Wizard101. It will move the player character around, engage in battles, and choose spells based on the player's current health.
-
 <img src="https://www.onrpg.com/wp-content/uploads/2008/12/Wizard101-Profile-Banner.png" width="100%">
   <h1>Wizard101 Bot</h1>
   <p>This bot is designed to automate gameplay in Wizard101. It will move the player character around, engage in battles, and choose spells based on the player's current health.</p>
@@ -44,6 +41,8 @@ This bot is designed to automate gameplay in Wizard101. It will move the player 
     <li>Currently this is configured for a balance wizard that has 5 spells in their deck, 2 epics, 2 sandstorm and a pixie.<li>
     <li>This script does works intendend but not 100% might have issues with OCR. To get the best result <code><strong>RUN wizard101 on maximum screen resolution possible to you and without going fullscreen, and change the ui size to normal/regular. <strong></li></code>
   </ol>
+      <img src="http://4.bp.blogspot.com/-ycm5RX-E77k/UuJUSStIhEI/AAAAAAAAKz4/AtPCNUcu1gQ/s1600/awesome+thing+multistrike+spells.jpg">
+      <p>Best spells to equip is to an AOE spell like tempest, meteor etc..</p>
 
   <h2>Customization</h2>
   <p>This bot is designed to work with specific images for recognizing the start of a battle and the spells. To customize the bot for your needs, replace the images in the script with your own. Make sure to also adjust the health threshold according to your needs.</p>
