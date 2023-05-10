@@ -32,7 +32,7 @@ This bot is designed to automate gameplay in Wizard101. It will move the player 
   <h2>Installation</h2>
   <ol>
     <li>Clone this repository to your local machine.</li>
-    <li>Install the required Python libraries. You can do this by running <code>pip install -r requirements.txt</code> from your command line.</li>
+    <li>Install the required Python Dependencies.</li>
     <li>Download and install <a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract OCR</a>. Make sure to add the Tesseract path to your system's PATH or specify the path in the script with <code>pytesseract.pytesseract.tesseract_cmd</code>.</li>
   </ol>
 
@@ -41,6 +41,8 @@ This bot is designed to automate gameplay in Wizard101. It will move the player 
     <li>Run the game and place the character in the area where you want the bot to function.</li>
     <li>Run the bot script using Python. The bot will start moving the character around and engage in battles.</li>
     <li>To stop the bot, simply bring the terminal to the foreground and stop the script (usually with <code>Ctrl+C</code>).</li>
+    <li>Currently this is configured for a balance wizard that has 5 spells in their deck, 2 epics, 2 sandstorm and a pixie.<li>
+    <li>This script does works intendend but not 100% might have issues with OCR. To get the best result <strong>RUN wizard101 on maximum screen resolution possible to you and without going fullscreen, and change the ui size to normal/regular. <strong></li> 
   </ol>
 
   <h2>Customization</h2>
