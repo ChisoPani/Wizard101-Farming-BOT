@@ -43,7 +43,7 @@ def main():
     window = gw.getWindowsWithTitle(window_title)[0]
     window.activate()
 
-    # coordinates for the region where the health value is displayed
+    # coordinates for the region where the health value is displayed, I got mine using SHARE X tool.
     health_region = (224, 818, 366, 918)
 
     while True:
@@ -72,7 +72,7 @@ def main():
                         pyautogui.click(epic_location)
                         print("Cast epic spell")
 
-                    # Find and click SANDSTORM card
+                    # Find and click SANDSTORM card/ replace just sandstorm.png with tempest/meteor or whatever your aoe spell is. Just replace the image not the code.
                     sandstorm_location = find_image_on_screen('sandstorm.png', region=(
                         window.left, window.top, window.width, window.height))
                     if sandstorm_location:
