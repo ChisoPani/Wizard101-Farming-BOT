@@ -38,7 +38,7 @@
     <li>Run the game and place the character in the area where you want the bot to function.</li>
     <li>Run the bot script using Python. The bot will start moving the character around and engage in battles.</li>
     <li>To stop the bot, simply bring the terminal to the foreground and stop the script (usually with <code>Ctrl+C</code>).</li>
-    <li>Currently this is configured for a balance wizard that has 5 spells in their deck, 2 epics, 2 sandstorm and a pixie.<li>
+    <li>Currently this is configured for a balance wizard that has 5 spells in their deck, 2 epics, 2 sandstorm and a pixie.</li>
     <li>This script does works intendend but not 100% might have issues with OCR. To get the best result <code><strong>RUN wizard101 on maximum screen resolution possible to you and without going fullscreen, and change the ui size to normal/regular. <strong></li></code>
   </ol>
       <img src="http://4.bp.blogspot.com/-ycm5RX-E77k/UuJUSStIhEI/AAAAAAAAKz4/AtPCNUcu1gQ/s1600/awesome+thing+multistrike+spells.jpg">
@@ -47,5 +47,5 @@
   <h2>Customization</h2>
   <p>This bot is designed to work with specific images for recognizing the start of a battle and the spells. To customize the bot for your needs, replace the images in the script with your own. Make sure to also adjust the health threshold according to your needs.</p>
 
-  <p>Please note that this README assumes the reader has a basic understanding of Python and command line usage. Adjust accordingly based on your target audience.</p>
+  <p>Please note that this README assumes the reader has a basic understanding of Python and command line usage.</p>
 
